@@ -1,0 +1,11 @@
+{
+  "routes": {
+    "booking/flight": {
+      "search": {
+        "type": "component",
+        "source": ["feature-flight-search"],
+        "active": false
+      }
+    }
+  }
+}

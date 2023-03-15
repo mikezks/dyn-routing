@@ -1,10 +1,17 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@flight42/dyn-routes": [
+        "projects/libs/dyn-routes/src/public-api.ts"
+      ],
+      "@flight42/logic-flight": [
+        "projects/libs/logic-flight/src/public-api.ts"
+      ]
+    },
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,

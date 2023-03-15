@@ -1,0 +1,7 @@
+{
+  "feature-flight-search": {
+    "type": "module",
+    "remoteEntry": "http://localhost:4600/remoteEntry.js",
+    "exposedModule": "./component"
+  }
+}
